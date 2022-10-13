@@ -10,12 +10,14 @@
         <div class="page-header">
 
                {% if user.is_authenticated %}
-
-                    <a href="{% url 'post_new' %}" class="top-menu"><h3> New post</h3></a>
+                    <a href="{% url 'post_login' %}" class="menu"> Opções</a>
+                    <a href="{% url 'post_list' %}" class="head-menu"> Textil 2022</a>
+                    <a href="{% url 'post_new' %}" class="top-menu"> New post</a>
                {% else %}
-                    <a href="{% url 'post_login' %}" class="login"<h3> Login</h3></a>
+                    <a href="{% url 'post_list' %}" class="head-menu"> Textil 2022</a>
+                    <a href="{% url 'post_login' %}" class="top-menu"> Login</a>
                {% endif %}
-                <a href="{% url 'post_list' %}" class="head-menu"><h1>  Textil 2022</h1></a>
+
 
 
 

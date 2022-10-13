@@ -23,6 +23,9 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('polls.urls')),
     path('ckeditor/', include('ckeditor_uploader.urls')),
+    path('social-auth/', include('social_django.urls', namespace='social-auth')),
+
+
 
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 

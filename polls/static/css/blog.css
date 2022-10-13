@@ -1,44 +1,43 @@
-h1 a, h2 a {
-    color: #adc32F;
-    font-family: 'Lobster';
-        text-decoration: none;
-}
+ h1, h2, h3, h4{
+     font-family: "sans-serif";
+ }
  body {
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Helvetica Neue","Helvetica","Arial","sans-serif";
     font-size: 14px;
-
     color: blue;
     background-color: white;
-        text-decoration: none;
-
+    text-decoration: none;
 
 }
-.login{
+.head-menu, head-menu a, .head-menu:hover, .head-menu:visited{
+    text-decoration: none;
     color: #FFFFFF;
+    text-align: center;
+    font-size: 26pt;
 }
-.page-header, .login {
+.page-header {
     background-color: #003050;
     padding: 20px 20px 20px 20px;
-    margin-left: -14px;
-        text-decoration: none;
+
+    text-decoration: none;
+
+
 
 }
+
 .page-header h1,  .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
-    top: 0;
+
     color: #FFFFFF;
-    font-size: 36pt;
     text-decoration: none;
-    left: 0;
-    text-align: center;
+
+    font-size: 36pt;
+
+
 }
+
 
 .content {
     margin-left: 20px;
-        text-decoration: none;
-}
-
-h1, h2, h3, h4 {
-    font-family: 'Lobster', cursive;
         text-decoration: none;
 }
 
@@ -57,41 +56,59 @@ h1, h2, h3, h4 {
     position: relative;
     text-align: center;
     width: 100%;
-        text-decoration: none;
+    text-decoration: none;
 }
 
 .top-menu, .top-menu:hover, .top-menu:visited {
     color: #FFFFFF;
-    float: right;
-    font-size: 26pt;
-    margin-right: 30px;
+    text-align: right;
     text-decoration: none;
+    font-size: 26pt;
+
+    left: 100%;
+    transform: translateX(-90%);
+    width:10%;
+}
+}
+.top-menu h1,  .top-menu h1 a, .top-menu h1 a:visited, .top-menu h1 a:active {
+    top: 0;
+    color: #FFFFFF;
+    text-decoration: none;
+    left: 0;
+    font-size: 26pt;
+
 }
 
-.head-menu, .login {
-    text-decoration: none;
-}
+
+
 
 .post {
     margin-bottom: 70px;
     position: relative;
     text-align: center;
     width: 100%;
-        text-decoration: none;
+    text-decoration: none;
 }
 
 .post h2 a, .post h2 a:visited {
     color: #000000;
-
     text-align: center;
     width: 100%;
-        text-decoration: none;
+    text-decoration: none;
 }
 
 .row {
     text-align: center;
 }
+.menu,  .menu:hover, .menu:visited{
+    top: 0;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-align:right;
+    font-size: 26pt;
 
+
+}
 footer{
     background-color: #003050;
     text-align: center;
